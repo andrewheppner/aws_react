@@ -4,7 +4,7 @@ import { BrownSquirrel, BlackSquirrel } from "./subRoutes";
 
 export const Squirrels = ({ match }) => (
   <section>
-    <h1>Squirrels</h1>
+    <h1>Squirrels are the best!</h1>
     <Link to={`${match.url}/brown`}>Brown Squirrels</Link>
     <Link to={`${match.url}/black`}>Black Squirrels</Link>
     <Route path={`${match.path}/brown`} component={BrownSquirrel} />
