@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "css": "tachyons src/css/app.css > src/index.css",
-    "postInstall": "yarn run build",
+    "postinstall": "yarn run build",
     "prestart": "yarn run css",
     "prebuild": "yarn run css"
   },
