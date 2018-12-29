@@ -11,7 +11,7 @@ const BlueBox = Styled.div.attrs({
 
 export const Dogs = () => (
   <section>
-    <h1>Dogs</h1>
+    <h1>Dogs are my favourite!</h1>
     <BlueBox />
   </section>
 );
