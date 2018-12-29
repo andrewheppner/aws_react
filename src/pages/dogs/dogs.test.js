@@ -11,6 +11,6 @@ it("renders the dogs page without crashing", () => {
 
 it("renders the h1 element", () => {
   const DogsComponent = shallow(<Dogs />);
-  const header = <h1>Dogs</h1>;
+  const header = <h1>Dogs are my favourite!</h1>;
   expect(DogsComponent).toContainReact(header);
 });
